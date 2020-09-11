@@ -19,9 +19,11 @@ public class Alphabet {
 		for(int i = 0; i < myName.length(); i++) {
 			
 			name[i] = alphabet.charAt(alphabet.indexOf(myName.charAt(i)));
-			System.out.print(name[i]);
 			
 		}
+		
+		System.out.println(name);
+		
 	}
 
 }
